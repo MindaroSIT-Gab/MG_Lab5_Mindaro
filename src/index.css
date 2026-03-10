@@ -1,0 +1,24 @@
+
+body {
+  margin: 0;
+  background-color: #f0f2f5; 
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+
+.nav-link, .navbar-brand, .btn {
+  transition: 0.3s ease;
+}
+
+
+.nav-link:hover {
+  opacity: 0.8;
+  text-decoration: underline !important;
+}
+
+
+main {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
