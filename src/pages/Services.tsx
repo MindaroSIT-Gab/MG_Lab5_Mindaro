@@ -1,6 +1,6 @@
 function Services() {
   return (
-    <main className="p-4 bg-white shadow rounded border">
+    <main className="p-4 bg-blue shadow rounded border">
       <h2 className="text-primary mb-4">Student Resources</h2>
       <div className="text-start mx-auto" style={{maxWidth: "400px"}}>
         <p><strong>• Academic Advising:</strong> Schedule a meeting with your counselor.</p>

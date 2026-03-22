@@ -1,9 +1,13 @@
+
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import NotFound from './pages/NotFound'; 
+import BookRequest from './pages/BookRequest';
+import EventFeedback from './pages/EventFeedback';
+
 
 function App() {
   return (
@@ -19,6 +23,8 @@ function App() {
               <Link className="text-white text-decoration-none" to="/about">About</Link>
               <Link className="text-white text-decoration-none" to="/services">Services</Link>
               <Link className="text-white text-decoration-none" to="/contact">Contact</Link>
+              <Link className="text-white text-decoration-none" to="/book-request">Book Request</Link>
+              <Link className="text-white text-decoration-none" to="/event-feedback">Event Feedback</Link>
             </nav>
           </header>
         </nav>
@@ -29,6 +35,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/book-request" element={<BookRequest />} />
+            <Route path="/event-feedback" element={<EventFeedback />} />
             
             
             <Route path="*" element={<NotFound />} />
